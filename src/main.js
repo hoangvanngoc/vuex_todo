@@ -5,9 +5,9 @@ import App from './App.vue'
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faUser, faClock, faFaceSmile } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faClock, faBars, faXmark, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faUser, faClock, faFaceSmile);
+library.add(faUser, faClock, faBars, faXmark, faMagnifyingGlass);
 
 // add Tailwin
 import './index.css'
